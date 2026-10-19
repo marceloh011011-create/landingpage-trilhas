@@ -1,0 +1,127 @@
+/* ==========================================================================
+   BASE — variáveis de marca, reset e tipografia global.
+   Nada aqui conhece seções ou componentes específicos.
+   ========================================================================== */
+
+:root {
+  /* Cores */
+  --color-brand: #B5121B;
+  --color-brand-dark: #8A0D14;
+  --color-brand-tint: #FBE9EA;
+  --color-whatsapp: #0E7A40;
+  --color-whatsapp-text: #0B6635;
+  --color-ink: #1A1413;
+  --color-ink-soft: #5C5452;
+  --color-surface: #FFFFFF;
+  --color-surface-tint: #F4F0EE;
+  --color-dark: #17110F;
+  --color-dark-raised: #241B19;
+  --color-line-on-dark: rgba(255, 255, 255, 0.1);
+  --color-accent-on-dark: #FF8A8A;
+  --color-darker: #0E0A09;
+  --color-on-dark: #FFFFFF;
+  --color-on-dark-soft: #E9E2DF;
+  --color-on-dark-muted: #CFC6C3;
+  --color-border: #E0D9D5;
+  --color-focus: #F2A900;
+  --color-check: #FF6B6B;
+
+  /* Tipografia */
+  --font-body: "Barlow", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+
+  /* Espaçamento e forma */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 88px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+  --container: 1200px;
+  --container-narrow: 860px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px; /* âncoras não ficam sob o cabeçalho fixo */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--color-ink);
+  background: var(--color-surface);
+}
+
+h1, h2, h3, p, ul, ol, figure, address {
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-brand);
+}
+
+a:hover {
+  color: var(--color-brand-dark);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space-sm);
+  top: -100px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--color-ink);
+  color: var(--color-on-dark);
+  border-radius: var(--radius-md);
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+  color: var(--color-on-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

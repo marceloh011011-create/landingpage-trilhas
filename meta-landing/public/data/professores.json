@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Wagner Tironi",
+    "bio": "Professor e líder técnico em desenvolvimento de sistemas, com mais de 27 anos de experiência em tecnologia. Mestrando em Ciência da Computação, é apaixonado por tecnologia e pelo ensino."
+  },
+  {
+    "nome": "Adriano Ferreira",
+    "bio": "Graduado em Análise e Desenvolvimento de Sistemas, com pós-graduação em Arquitetura de Software. Possui experiência em Tecnologia da Informação, com atuação em empresas como Sistema FIEMG e Qesh Payments."
+  },
+  {
+    "nome": "Sergio Rutowitsch",
+    "bio": "Engenheiro Mecânico pelo CEFET-MG e mestrando em Engenharia Mecânica, com MBA em Data Science e Analytics pela USP/Esalq. Atua com ciência de dados, Machine Learning, simulações computacionais e soluções tecnológicas aplicadas à indústria."
+  },
+  {
+    "nome": "Fernanda Martins",
+    "bio": "Graduada em Enfermagem pela PUC Minas, com especializações em Cuidados Paliativos e Terapia da Dor e em Centro Cirúrgico. É mestranda pela Universidade Federal Fluminense (UFF)."
+  },
+  {
+    "nome": "Clei Amorim",
+    "bio": "Profissional de tecnologia e dados, com formação em Segurança do Trabalho, Meio Ambiente e Análise e Desenvolvimento de Sistemas. Especialista em dados de SSMA, possui experiência em consultoria, análise de dados e processos industriais, além de atuar como professor de educação técnica."
+  },
+  {
+    "nome": "Professor de Tecnologia",
+    "bio": "Profissional de tecnologia com experiência em desenvolvimento de software, arquitetura de sistemas e bancos de dados. Atua como professor de educação profissional nas áreas de programação, desenvolvimento web e Tecnologia da Informação, conectando conhecimentos técnicos às demandas do mercado."
+  }
+]
